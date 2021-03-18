@@ -19,6 +19,9 @@
   - https://ethereum.stackexchange.com/questions/19171/what-does-underscore-do/19173
 - 'msg' is a global variable in blockchain which holds the account info
 - 'block' is another global. Has info about this current block (we use the timestamp in example)
+-  use 'payable' keyword when you want to send/receive payments
+- 'events' are like ROS events, helps you with the log. You can subscribe to the events
+  - you can use the 'indexed' keyword to filter on that property, our case we indexed the buyer name
 
 ### Transactioins
 - The etherium blockchain is made of bundles of recored called blocks
