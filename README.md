@@ -17,6 +17,8 @@
 - 'address' is a datatype in solidity. Address on the blockchain network is an account
 - '_' underscore character for functinoal modifiers. Directing flow of code. See this
   - https://ethereum.stackexchange.com/questions/19171/what-does-underscore-do/19173
+- 'msg' is a global variable in blockchain which holds the account info
+- 'block' is another global. Has info about this current block (we use the timestamp in example)
 
 ### Transactioins
 - The etherium blockchain is made of bundles of recored called blocks
