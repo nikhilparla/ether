@@ -14,6 +14,9 @@
 
 #### Language Data types
 - public keyword on the global variable gives you access even without a getter function
+- 'address' is a datatype in solidity. Address on the blockchain network is an account
+- '_' underscore character for functinoal modifiers. Directing flow of code. See this
+  - https://ethereum.stackexchange.com/questions/19171/what-does-underscore-do/19173
 
 ### Transactioins
 - The etherium blockchain is made of bundles of recored called blocks
