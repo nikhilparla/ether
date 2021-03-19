@@ -5,6 +5,17 @@
 - They will be able to see the smart contract, see it and read and write data to it
 - Syntactically looks like a class
 
+### Etherium
+- *Tokens*
+  - tokens represent a range of digital assets, such as vouchers, IOUs, or even real world tangible objects
+  - etherium tokens are smart contracts that make use of etherium blockchain
+- *ERC-20 token*
+  - Most signifcant Etherium token, emerged as techical standard for all cryptocurrencies on eth blockchain
+  - List of rules that eth based tokens must follow like:
+    - how tokens are transferred
+    - how transactions are approved
+    - how users access data about token
+    - total supply of tokens
 
 ### Solidity
 - Contracts based language. 
@@ -21,7 +32,9 @@
 - 'block' is another global. Has info about this current block (we use the timestamp in example)
 -  use 'payable' keyword when you want to send/receive payments
 - 'events' are like ROS events, helps you with the log. You can subscribe to the events
-  - you can use the 'indexed' keyword to filter on that property, our case we indexed the buyer name
+    -  you can view these messages in the transaction logs in the blockchain
+    - you can use the 'indexed' keyword to filter on that property, our case we indexed the buyer name
+     
 
 ### Transactioins
 - The etherium blockchain is made of bundles of recored called blocks
